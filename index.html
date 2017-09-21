@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="flex-wrap flex-page">
+    <div class="flex-child" id="fix-left">
+        <p>fixed width 200px &#8596;</p>
+        <p>takes up all available height</p>
+    </div>
+    <div class="flex-wrap flex-col">
+        <header class="flex-child">
+            <p>fixed height 150px &#8597;</p>
+            <p>takes up all available width</p>
+        </header>
+        <div class="flex-wrap">
+            <div class="flex-child" id="content">
+                <p>takes up all remaining space</p>
+            </div>
+            <div class="flex-child" id="fix-right">
+                <p>fixed width 200px &#8596;</p>
+                <p>takes up all available height between &#8593; and &#8595;</p>
+            </div>
+        </div>
+        <footer class="flex-child">
+            <p>fixed height 150px &#8597;</p>
+            <p>takes up all available width</p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
